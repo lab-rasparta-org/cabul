@@ -1,0 +1,27 @@
+* DONE Get the project files.
+Either by downloading them form the github project's page:
+https://github.com/lab-rasparta-org/cabul
+Or by cloning the repo (Prefered way):
+git clone git@github.com:lab-rasparta-org/cabul.git
+
+* TODO Set up the environment to lounch the help command.
+Configure your window/desktop/whatever manager to run the command to open the cabul.org file in emacs using org-mode whenever you press a key or a combination of keys.
+You can get away with any other text editor/viewer, but it won't be as nice.
+For example, you could setup gnome so that, when you press:
+C-W h
+The following command gets executed:
+gnome-terminal --read-conf=<gnometerminalconffile> -e "emacs <cabul.org> -f org-mode"
+Of course, you will have to substitute <gnometerminalconffile> and <cabul.org> with the complete path to the actual files you want to use.
+<gnometerminalconffile> is a file where you have saved the configuration from gnome terminal.
+<cabul.org> is the cheatsheet.
+
+* TODO Keep adding stuff as you discover new tricks.
+
+* TODO Keep removing stuff as you trully learn them.
+
+* TODO Keep committing.
+
+* TODO Share your knowledge.
+
+* Be happy(er).
+:-)

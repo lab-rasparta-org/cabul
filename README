@@ -1,0 +1,38 @@
+"Cábula" is the Portuguese word for cheatsheet. "Kabul" is a town in Afghanistan.
+
+The idea is to have a readily available editable cheatsheet for when using the computer.
+It doesn't have to be command line stuff. It could be anything, really - procedures, contacts or any other kind of documentation...
+It is, also, supposed to be permanently edited to include stuff you need help remembering and to remove the things you are already comfortable with.
+
+HOW-TO
+======
+1. First you'll have to grab the files.
+Preferably, clone the repo with:
+  $ git clone git@github.com:lab-rasparta-org/cabul.git
+You can also head over to https://github.com/lab-rasparta-org/cabul and download the zip file or the tarball instead, if you want.
+
+2. Configure your window/desktop/whatever manager to run the command to open the cabul.org file in emacs using org-mode whenever you press a key or a combination of keys.
+You can get away with any other text editor/viewer, but it won't be as nice.
+For example, you could setup gnome so that, when you press:
+C-W h
+The following command gets executed:
+gnome-terminal --read-conf=<file> -e "emacs <cabul.org> -f org-mode"
+Of course, you will have to substitute <file> and <cabul.org> with the complete path to the actual files you want to use.
+<file> is a file where you have saved the configuration from gnome terminal.
+<cabul.org> is the cheatsheet.
+
+3. Use your Cheatsheet and be happy.
+Notice you can edit it? You are supposed to do so as you go along.
+
+BETTER
+======
+If you chose to clone the repo, you can now add a personal branch and track your progress that way. Just keep committing.
+
+HEAVEN
+======
+If you consider yourself a guru in any subject, share your knowledge by sending a pull request.
+
+NIRVANA
+=======
+Help create a central hub for org-mode cheatsheets.
+;-)

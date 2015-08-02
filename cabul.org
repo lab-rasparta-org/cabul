@@ -1,0 +1,26 @@
+CABUL.ORG - "Cábula" is the Portuguese word for cheatsheet. "Kabul" is a town in Afghanistan.
+By: lab.rasparta.org.
+On the www at http://cabul.lab.rasparta.org.
+
+* cabul.org
+A line starting with "* " starts a subject. Just like the one above.
+A line starting with "** " is a second level subject. Just like the next one.
+If you are using org-mode (you really should) put the mark (the cursor) on the same line as any of the subjects and press tab to unfold.
+When done with it, press tab again to fold it back.
+
+** How do I start?
+Just edit the file and make it your own.
+Don't forget to read the README and the TODO files to set up everything nicely.
+You can, now, start by just deleting all of this.
+Remember: its only a specially formatted text file.
+
+** How can I help?
+Send a pull request our way.
+;-)
+
+
+* License
+This work is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+To view a copy of this license, visit
+http://creativecommons.org/licenses/by-sa/4.0/ .
