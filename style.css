@@ -1,0 +1,48 @@
+html, body, footer {
+    display: block;
+}
+
+html {
+    overflow: hidden;
+    background-color: black;
+    background-image: url(background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    border-width: 0;
+}
+
+img.download {
+    position: fixed;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px white;
+}
+
+footer {
+    height: 30px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.5em;
+    text-shadow: 0px 0px 10px white;
+    color: black;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: transparent;
+}
